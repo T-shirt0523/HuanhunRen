@@ -1,0 +1,63 @@
+# ---- 构建产物 ----
+*.exe
+*.o
+*.obj
+*.dll
+*.a
+*.lib
+build/
+icon.rc
+icon_res.o
+CMakeCache.txt
+CMakeFiles/
+
+# ---- 运行时生成 ----
+save.dat
+lang.cfg
+tut_seen.dat
+*.log
+
+# ---- 本地开发脚本 / 调试产物（不进仓库）----
+_tmp/
+_*.js
+_*.err
+snap*.ps1
+gen_zhtext.ps1
+regen_zh_tmp.ps1
+run_dbg.bat
+fontfix.ps1
+gdb_*
+dbg_*.txt
+run_*.txt
+verify_*.txt
+stress_run.txt
+build_*.txt
+prog_*.txt
+shot*.png
+r13*.png
+*.png.bak
+promo-capture.json
+cmp_*.py
+verify_shots.py
+r13_shots.py
+.crop_ui.py
+
+# ---- 世界观与设计文档：不公开（含结局与伏笔，公开发布前请保留本地）----
+docs/
+系统设计.md
+
+# ---- 备份与实验目录 ----
+.bak_*/
+frontier-zero/
+.superpowers/
+neon-bounce-lab/
+r13_shots/
+
+# ---- 编辑器 ----
+.vs/
+.vscode/
+.idea/
+*.user
+
+# ---- 智能助手工作目录（本地）----
+.workbuddy/
